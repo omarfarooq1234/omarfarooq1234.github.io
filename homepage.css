@@ -232,4 +232,10 @@ body {
     .hero p {
         font-size: 1rem;
     }
+    
+}@media (max-width: 768px) {
+    .header .container {
+        font-size: 80%;
+    }
+    
 }
