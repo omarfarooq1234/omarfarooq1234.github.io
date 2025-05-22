@@ -213,29 +213,30 @@ body {
 }
 
 @media (max-width: 768px) {
-    .header .container {
-        flex-direction: column;
-    }
-    
-    .navbar ul {
-        margin-top: 20px;
-    }
-    
-    .navbar li {
-        margin: 0 10px;
-    }
-    
-    .hero h1 {
-        font-size: 2rem;
-    }
-    
-    .hero p {
-        font-size: 1rem;
-    }
-    
-}@media (max-width: 768px) {
-    .header .container {
-        font-size: 80%;
-    }
-    
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .header .container {
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 15px;  
+    width: 100%;
+   
+  }
+
+  .navbar ul {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .navbar li {
+    margin-left: 0;         
+  }
+
 }
