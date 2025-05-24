@@ -249,3 +249,32 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .header .container {
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 15px;  
+    width: 100%;
+   
+  }
+
+  .navbar ul {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .navbar li {
+    margin-left: 0;         
+  }
+
+}
